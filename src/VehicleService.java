@@ -3,4 +3,6 @@ public interface VehicleService {
     void checkEngine();
     String getModelName();
     int getWheelsCount();
+    void checkTrailer();
+
 }
