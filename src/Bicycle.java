@@ -1,5 +1,17 @@
-public class Bicycle extends Vehicle {
+public class Bicycle extends Vehicle implements VehicleService {
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
+    }
+
+    public void updateTyre() {
+        System.out.println("Меняем покрышку");
+    }
+
+    public void checkEngine() {
+
+    }
+
+    public void checkTrailer() {
+
     }
 }

@@ -1,5 +1,15 @@
-public class Car extends Vehicle {
+public class Car extends Vehicle implements VehicleService {
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
+    }   public void updateTyre() {
+        System.out.println("Меняем покрышку");
+    }
+
+    public void checkEngine() {
+        System.out.println("Проверяем двигатель");
+    }
+
+    public void checkTrailer() {
+        System.out.println("У машины нет прицепа");
     }
 }
