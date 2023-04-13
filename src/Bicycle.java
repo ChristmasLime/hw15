@@ -7,11 +7,4 @@ public class Bicycle extends Vehicle implements VehicleService {
         System.out.println("Меняем покрышку");
     }
 
-    public void checkEngine() {
-
-    }
-
-    public void checkTrailer() {
-
-    }
 }

@@ -5,4 +5,6 @@ public interface VehicleService {
     int getWheelsCount();
     void checkTrailer();
 
+
+
 }

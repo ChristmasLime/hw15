@@ -1,4 +1,4 @@
-public class Vehicle {
+ class Vehicle {
     protected String modelName;
     protected int wheelsCount;
 
@@ -14,4 +14,13 @@ public class Vehicle {
     public int getWheelsCount() {
         return wheelsCount;
     }
+    public void updateTyre() {
+
+    }
+    public void checkEngine() {
+    }
+    public void checkTrailer() {
+
+    }
+
 }
