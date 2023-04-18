@@ -16,7 +16,6 @@ public class Main {
 
 
         ServiceStation station = new ServiceStation();
-        Vehicle[]  stations = new Vehicle[]{car,car2,truck,truck2,bicycle,bicycle2};
 
 
         splitOffers();
@@ -32,7 +31,12 @@ public class Main {
         splitOffers();
         station.check(truck2);
         splitOffers();
-        station.checkAll(stations );
+        Vehicle[]  stations = new Vehicle[]{car,car2,truck,truck2,bicycle,bicycle2};
+        for (Vehicle vehicle : stations) {
+
+            System.out.println(vehicle);
+        }
+//        station.checkAll(stations);
 
     }
 }

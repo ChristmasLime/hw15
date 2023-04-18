@@ -23,7 +23,12 @@
          }
          }
 
+     @Override
+     public String toString() {
+         return "Транспортное средство: " + modelName  +
+                 " сменить " + wheelsCount +" покрышек.";
      }
+ }
 
 
 

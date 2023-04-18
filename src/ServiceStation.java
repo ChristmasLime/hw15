@@ -4,8 +4,8 @@ public class ServiceStation {
         }
 
         public void checkAll(VehicleService[] vehicles) {
-                for (VehicleService vehicleService : vehicles) {
-                        vehicleService.service();
+                for (VehicleService vehicle : vehicles) {
+                        vehicle.service();
                 }
         }
 }
